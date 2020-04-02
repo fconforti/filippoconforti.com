@@ -1,0 +1,60 @@
+/**
+ * @license
+ * MyFonts Webfont Build ID 3885805, 2020-04-01T09:59:18-0400
+ * 
+ * The fonts listed in this notice are subject to the End User License
+ * Agreement(s) entered into by the website owner. All other parties are 
+ * explicitly restricted from using the Licensed Webfonts(s).
+ * 
+ * You may obtain a valid license at the URLs below.
+ * 
+ * Webfont: Eina01-Regular by Extratype
+ * URL: https://www.myfonts.com./fonts/textaxis/eina/01-regular/
+ * 
+ * Webfont: Eina01-RegularItalic by Extratype
+ * URL: https://www.myfonts.com./fonts/textaxis/eina/01-regular-italic/
+ * 
+ * Webfont: Eina01-Bold by Extratype
+ * URL: https://www.myfonts.com./fonts/textaxis/eina/01-bold/
+ * 
+ * 
+ * Webfonts copyright: Copyright (c) 2013 Textaxis. v 1.0 by I&amp;#x00F1;igo Jerez. Barcelona. All rights reserved.
+ * 
+ * © 2020 MyFonts Inc
+*/
+
+/* @import must be at top of file, otherwise CSS will not work */
+@import url("https://hello.myfonts.net/count/3b4aed");
+
+@font-face {
+  src: url("./fonts/Eina01-Regular/font.eot");
+  font-family: "Eina01-Regular";
+  src: url("./fonts/Eina01-Regular/font.woff2") format("woff2"),
+    url("./fonts/Eina01-Regular/font.woff") format("woff"),
+    url("./fonts/Eina01-Regular/font.eot?#iefix") format("embedded-opentype"),
+    url("./fonts/Eina01-Regular/font.ttf") format("truetype");
+}
+@font-face {
+  src: url("./fonts/Eina01-Bold/font.eot");
+  font-family: "Eina01-Bold";
+  src: url("./fonts/Eina01-Bold/font.woff2") format("woff2"),
+    url("./fonts/Eina01-Bold/font.woff") format("woff"),
+    url("./fonts/Eina01-Bold/font.eot?#iefix") format("embedded-opentype"),
+    url("./fonts/Eina01-Bold/font.ttf") format("truetype");
+}
+
+body {
+  font-family: "Eina01-Regular";
+}
+
+.font-bold {
+  font-family: "Eina01-Bold";
+}
+
+.logo {
+  font-size: 6rem;
+}
+
+.mit {
+  vertical-align: text-top;
+}
